@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ag7"
+    }
+  },
+  "defaultProject": "ag7",
+  "cli": {
+    "analytics": "d7c25d21-39f1-4f03-b0cb-12e95f969d26"
+  }
 }

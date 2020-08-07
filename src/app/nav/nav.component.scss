@@ -1,0 +1,60 @@
+
+.container
+{
+    padding-top: 20px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+
+   // margin-bottom: 20px;
+  
+}
+
+header {
+    background: white;
+
+    .logo {
+       // font-weight: bold;
+         font-size: 1.4em;
+        color: #d54d7b; 
+        font-family:  'Caveat', 'cursive';
+        
+        font-style: italic;
+        //font-size: 165px; 
+        //line-height: 160px; 
+        font-weight: normal; 
+        //margin-bottom: 0px; 
+      //  margin-top: 40px; 
+       // text-align: center; 
+        text-shadow: 0 1px 1px #fff;
+    }
+
+    nav {
+        justify-self: right;
+    
+        ul {
+            list-style-type: none;
+            margin: 0; padding: 0;
+
+            li {
+                float: left;
+
+                a {
+                    padding: 1.5em;
+                    text-transform: lowercase;
+                    font-size: 1.4em;
+                    color:black;
+                    font-style: italic;
+                    font-family:  'Brush Script MT', 'Brush Script Std', 'cursive';
+
+                    &:hover {
+                        //background: #8E2BFF;
+                        
+                            text-decoration: underline;
+
+                        
+                    }
+                }
+            }
+        }
+    }
+}
